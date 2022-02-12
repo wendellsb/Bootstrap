@@ -2,6 +2,7 @@ Curso para bootstrap pelo youtube CFB Cursos
 
 Exemplo de código
 
+
 <!doctype html>
 <html lang="pt-BR">
   <head>
@@ -13,9 +14,5 @@ Exemplo de código
   </head>
   <body>
     <h1>CFB Cursos - Curso de Bootstrap</h1>
-
- 
-    
-
   </body>
 </html>

@@ -3,7 +3,7 @@ Bootstrap e suas funcionalidades.
 
 Exemplo de código
 
-
+***************
 <!doctype html>
 <html lang="pt-BR">
   <head>
@@ -17,3 +17,4 @@ Exemplo de código
     <h1>CFB Cursos - Curso de Bootstrap</h1>
   </body>
 </html>
+***************

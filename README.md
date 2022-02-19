@@ -1,6 +1,5 @@
 Curso para bootstrap pelo youtube CFB Cursos!
 Bootstrap e suas funcionalidades.
-
 Exemplo de código
 ***************
 <!doctype html>

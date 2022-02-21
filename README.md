@@ -1,4 +1,7 @@
-Curso para bootstrap pelo youtube CFB Cursos
+Curso para bootstrap pelo youtube CFB Cursos!
+Bootstrap e suas funcionalidades.
+Exemplo de código
+***************
 <!doctype html>
 <html lang="pt-BR">
   <head>
@@ -10,9 +13,6 @@ Curso para bootstrap pelo youtube CFB Cursos
   </head>
   <body>
     <h1>CFB Cursos - Curso de Bootstrap</h1>
-
- 
-    
-
   </body>
 </html>
+***************

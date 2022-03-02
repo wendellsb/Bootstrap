@@ -8,13 +8,32 @@
     <title>CFB Cursos</title>
   </head>
   <body>
-    <ul>
-        <li>Anterior</li>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>Próxima</li>
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Anterior</li></a>
+        <li class="page-item active" onclick="ativar(this)"><a class="page-link" href="#">1</li></a>
+        <li class="page-item" onclick="ativar(this)"><a class="page-link" href="#">2</li></a>
+        <li class="page-item" onclick="ativar(this)"><a class="page-link" href="#">3</li></a>
+        <li class="page-item" onclick="ativar(this)"><a class="page-link" href="#">4</li></a>
+        <li class="page-item" onclick="ativar(this)"><a class="page-link" href="#">Próxima</li></a>
     </ul>
+    <!-- <ul class="pagination">
+        <li class="page-item disabled"><a class="page-link" href="#">Anterior</li></a>
+        <li class="page-item" onclick="ativar(this)"><a class="page-link" href="#">1</li></a>
+        <li class="page-item" onclick="ativar(this)"><a class="page-link" href="#">2</li></a>
+        <li class="page-item" onclick="ativar(this)"><a class="page-link" href="#">3</li></a>
+        <li class="page-item" onclick="ativar(this)"><a class="page-link" href="#">4</li></a>
+        <li class="page-item" onclick="ativar(this)"><a class="page-link" href="#">Próxima</li></a>
+    </ul>
+    -->
+    <script>
+        const ativar=(elemento)=>{
+            let itens=document.getElementsByClassName("page-item");
+            for(i=0; i<itens.length; i++){
+                itens[i].classList.remove("active");
+            }
+            elemento.classList.add("active");
+        }
+    </script>
+
   </body>
 </html>
